@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* styles the header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,11 +16,13 @@ header {
     color: #ffffff;
 }
 
+/*styles the name of the website in the h1 tag*/
 header h1 {
     font-size: 48px;
     display: inline-block;
 }
 
+/*styles the location of the nav bar */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -28,17 +31,22 @@ header nav {
     font-size: 20px;
 }
 
+/*styles the list items in the nav bar*/
+
 header li {
     display: inline-block;
     margin-left: 25px;
+    color: #ffffff;
 }
 
+/*styles the actual links in the nav bar*/
 a {
     color: #ffffff;
     text-decoration: none;
 
 }
 
+/*the first thing you see when you open the wepage*/
 .hero {
     height: 800px;
     width: 100%;
@@ -48,12 +56,14 @@ a {
     background-position: center;
 }
 
+/*the main content I want the user to see*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*this styles the different sections of the main content*/
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -63,16 +73,19 @@ main section {
     color: #ffffff;
 }
 
+/*this makes the object float to the left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*this makes the object float to the right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*the following tags are styling the content within the sections*/
 section img {
     max-height: 200px;
 }
@@ -82,10 +95,12 @@ section h2 {
     font-size: 36px;
 }
 
+
 p {
     font-size: 16px;
 }
 
+/*this styles the content on the side of the page*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -97,6 +112,7 @@ aside {
     background-color: #2589bd;
 }
 
+/*the benefits class will style the sections in the aside*/
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
@@ -114,12 +130,15 @@ aside {
     max-width: 150px;
 }
 
+/*styles the footer*/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
+/*styles the heading in the footer*/
 
 footer h2 {
     font-size: 20px;
